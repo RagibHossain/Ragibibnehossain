@@ -23,11 +23,13 @@ const HeroSection = () => {
                     <MyImage url1={myBWImage} url2={myColorFulImage} height="250px" width="250px"/>
                 </div>
                 <div className="intro hero-child">
-                    <p>Ragib Ibne Hossain</p>
+                    <p>Assalamu Alaikum, I am Ragib Ibne Hossain</p>
                     <div>
                         {count ? <Typist onTypingDone={() => setCount(0)}>
                             <div className="typical">
                                 <p style={{ paddingRight: "5px" }}> I am a </p>
+                                <p> Muslim </p>
+                                <Typist.Backspace count={7} delay={500} />
                                 <p>Software Developer</p>
                                 <Typist.Backspace count={19} delay={500} />
                                 <p> Tech Enthusiasist </p>
@@ -35,7 +37,11 @@ const HeroSection = () => {
                                 <p> Cricketer </p>
                                 <Typist.Backspace count={10} delay={400} />
                                 <p> Footballer </p>
-                                <Typist.Backspace count={9} delay={500} />
+                                <Typist.Backspace count={11} delay={500} />
+                                <p> Son </p>
+                                <Typist.Backspace count={4} delay={500} />
+                                <p> Brother </p>
+                                <Typist.Backspace count={8} delay={500} />
                             </div>
 
                         </Typist> : ""}

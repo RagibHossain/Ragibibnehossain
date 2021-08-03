@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import { faGithub, faLinkedin, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faGithub, faLinkedin, faFacebook, faInstagram);
+library.add(faGithub, faLinkedin, faFacebook, faInstagram,faGraduationCap,faBriefcase);
 
 const SocialMedia = () => {
 
