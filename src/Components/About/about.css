@@ -1,0 +1,14 @@
+.about-me-parent{
+    padding-bottom: 10%;
+}
+.about{
+ display: flex;
+ margin-top: 10%;
+}
+.about p{
+    background-color: #e2e2e2;
+    margin-left: 20%;
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+}

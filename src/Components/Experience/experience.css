@@ -1,0 +1,31 @@
+.experience,.education{
+    position: relative;;
+}
+.darkMode{
+    background-color: #222222;
+    margin-left: 3%;
+    margin-top:10%;
+    padding-left: 7% ;
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+    height: 300px;
+    width: 30%;
+    border-radius: 8%;
+    display: flex;
+    transition:0.5s;
+    position: relative;
+}
+.lightMode{
+    background-color: #e2e2e2;
+    margin-left: 3%;
+    margin-top:10%;
+    padding-left: 7% ;
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+    height: 300px;
+    width: 30%;
+    border-radius: 8%;
+    display: flex;
+    transition:0.5s;
+    position: relative;
+}

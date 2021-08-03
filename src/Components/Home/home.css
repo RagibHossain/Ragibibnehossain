@@ -1,0 +1,60 @@
+
+.hero-section{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hero-child{
+  margin-top: 20px;
+  padding-left: 100px;
+}
+
+.intro{
+    width: 300px;
+    
+    text-transform: uppercase;  
+}
+
+ .my-image{
+    /* margin: 10px; */
+} 
+.hire-me-button{
+    
+}
+.intro h1,.c2Header{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .5rem black;
+    color: white;
+}
+.intro h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+     text-shadow: .1rem .1rem .5rem black;
+}
+.intro a{
+    margin-top: 1.0rem;
+     border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    
+}
+.typical{
+    display: flex;
+}
+.typical p{
+    font-size: 20px;
+}
+.social-media span{
+   cursor: pointer;
+   padding: 30px; 
+}
+.social-media span:hover{
+    color: royalblue;
+}
+/*Buttons*/
