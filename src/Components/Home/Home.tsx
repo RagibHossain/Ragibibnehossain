@@ -3,7 +3,7 @@ import { MainstoreContext } from '../../Stores/mainStore'
 import About from '../About/About'
 import Experience from '../Experience/Experience'
 import Nav from '../Nav/Nav'
-import Skills from '../Skilss/Skills'
+import Skills from '../Skills/Skills'
 import HeroSection from './HeroSection'
 import "./home.css"
 const Home = () => {

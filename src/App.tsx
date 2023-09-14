@@ -6,9 +6,6 @@ import ModeSelector from './Components/ModeSelector/ModeSelector'
 import { useContext } from 'react'
 import { MainstoreContext } from './Stores/mainStore'
 import { observer } from 'mobx-react-lite'
-import About from './Components/About/About'
-import Skills from './Components/Skilss/Skills'
-import Experience from './Components/Experience/Experience'
 const App = () => {
   const darkMode = {
   backgroundColor:"#151515",
